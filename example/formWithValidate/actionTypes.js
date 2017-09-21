@@ -1,0 +1,2 @@
+export const SET_FORM_VALUE = "SET_FORM_VALUE";
+export const SET_ERROR_VALUE = "SET_ERROR_VALUE";
