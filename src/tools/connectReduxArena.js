@@ -7,14 +7,14 @@ export default function(Component) {
       locationArray: null,
       errorLocationArray: null
     },
-    propsPicker: (state, actions, allState, { _reduxArenaForm }) => ({
+    propsPicker: (state, actions, allState, { _arenaForm }) => ({
       _actions: actions,
       _locationArray: state._locationArray,
       _errorLocationArray: state._errorLocationArray,
-      raf_formData: allState[_reduxArenaForm.reducerKey].raf_formData,
-      raf_setFormValue: allState[_reduxArenaForm.reducerKey].raf_setFormValue,
-      raf_errorData: allState[_reduxArenaForm.reducerKey].raf_errorData,
-      raf_setErrorValue: allState[_reduxArenaForm.reducerKey].raf_setErrorValue
+      raf_formData: allState[_arenaForm.reducerKey].raf_formData,
+      raf_setFormValue: allState[_arenaForm.reducerKey].raf_setFormValue,
+      raf_errorData: allState[_arenaForm.reducerKey].raf_errorData,
+      raf_setErrorValue: allState[_arenaForm.reducerKey].raf_setErrorValue
     })
   });
 }

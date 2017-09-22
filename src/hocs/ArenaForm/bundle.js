@@ -9,6 +9,6 @@ export default {
     actions
   }),
   options: {
-    vReducerKey: "_reduxArenaForm"
+    vReducerKey: "_arenaForm"
   }
 };
