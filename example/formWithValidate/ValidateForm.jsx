@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
-import ReduxArenaForm from "redux-arena-form";
+import ArenaForm from "redux-arena-form";
 import { TextField, Checkbox, SelectField } from "redux-arena-form-material-ui";
 import MenuItem from "material-ui/MenuItem";
 import Paper from "material-ui/Paper";
@@ -33,7 +33,7 @@ export default class ValidateForm extends Component {
         <div style={{ display: "flex", margin: "1rem", width: "50rem" }}>
           <Paper style={{ width: "30rem" }}>
             <Subheader>Validate Form</Subheader>
-            <ReduxArenaForm
+            <ArenaForm
               formData={formData}
               setFormValue={actions.setFormValue}
               errorData={errorData}
@@ -65,7 +65,7 @@ export default class ValidateForm extends Component {
                   <MenuItem value="Jack" primaryText="Jack" />
                 </SelectField>
               </div>
-            </ReduxArenaForm>
+            </ArenaForm>
             <FlatButton
               style={{ margin: "1rem 0 1rem 10rem" }}
               disabled={!isFormValid}

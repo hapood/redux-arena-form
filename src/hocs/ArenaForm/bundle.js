@@ -1,8 +1,8 @@
-import ReduxArenaForm from "./ReduxArenaForm";
+import ArenaForm from "./ArenaForm";
 import state from "./state";
 
 export default {
-  Component: ReduxArenaForm,
+  Component: ArenaForm,
   state,
   propsPicker: (state, actions) => ({
     raf_formData: state.raf_formData,

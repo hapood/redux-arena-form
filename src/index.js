@@ -1,1 +1,1 @@
-export { ReduxArenaForm as default } from "./hocs";
+export { ArenaForm as default } from "./hocs";

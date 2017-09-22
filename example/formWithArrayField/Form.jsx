@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
-import ReduxArenaForm from "redux-arena-form";
+import ArenaForm from "redux-arena-form";
 import {
   TextField,
   Toggle,
@@ -42,7 +42,7 @@ export default class Form extends Component {
         <div style={{ display: "flex", margin: "1rem", width: "50rem" }}>
           <Paper style={{ width: "30rem" }}>
             <Subheader>Simple Form</Subheader>
-            <ReduxArenaForm
+            <ArenaForm
               formData={formData}
               setFormValue={actions.setFormValue}
             >
@@ -71,7 +71,7 @@ export default class Form extends Component {
                     />
                   ))}
               </div>
-            </ReduxArenaForm>
+            </ArenaForm>
             <FlatButton
               style={{ margin: "1rem 0 1rem 10rem" }}
               primary={true}

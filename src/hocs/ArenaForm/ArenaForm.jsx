@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-export default class ReduxArenaForm extends Component {
+export default class ArenaForm extends Component {
   static propTypes = {
     formData: PropTypes.object.isRequired,
     setFormValue: PropTypes.func.isRequired,

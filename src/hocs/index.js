@@ -1,3 +1,3 @@
-import ReduxArenaForm from "./ReduxArenaForm";
+import ArenaForm from "./ArenaForm";
 
-export { ReduxArenaForm };
+export { ArenaForm };
