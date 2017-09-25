@@ -1,4 +1,4 @@
-import { bundleToComponent } from "redux-arena/helper";
+import { bundleToComponent } from "redux-arena/tools";
 
 export default function(Component) {
   return bundleToComponent({
